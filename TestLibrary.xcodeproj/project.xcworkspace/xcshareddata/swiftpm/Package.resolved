@@ -1,0 +1,77 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "78424be314842833c04bc3bef5b72e85fff99204",
+        "version" : "5.6.4"
+      }
+    },
+    {
+      "identity" : "mhapi",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Moon-HeeJeong/MHAPI.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "8f38156514528e4f50a186b2d4b889eb42f006e4"
+      }
+    },
+    {
+      "identity" : "mhdownloader",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Moon-HeeJeong/MHDownloader.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "7b7eab1a300bed710061861fa7b1db6fda410c10"
+      }
+    },
+    {
+      "identity" : "mhimagecache",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Moon-HeeJeong/MHImageCache.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "e8a4ff5819841a0536a84378b83a7ef377e13720"
+      }
+    },
+    {
+      "identity" : "mhorientation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Moon-HeeJeong/MHOrientation.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "660132f27711bc77b04fa98bca7b8a363556edab"
+      }
+    },
+    {
+      "identity" : "mhtextfieldlistview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Moon-HeeJeong/MHTextFieldListView.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d83e6b7a8710cb4e85be699ce2f247f4416b184c"
+      }
+    },
+    {
+      "identity" : "mhvideoplayer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Moon-HeeJeong/MHVideoPlayer.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "94d0c64c53b3d423d7caa7265099be00a52eba93"
+      }
+    },
+    {
+      "identity" : "rxswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ReactiveX/RxSwift",
+      "state" : {
+        "branch" : "main",
+        "revision" : "04c8d2b491b54e46a3534254bed8807b4a954fad"
+      }
+    }
+  ],
+  "version" : 2
+}
