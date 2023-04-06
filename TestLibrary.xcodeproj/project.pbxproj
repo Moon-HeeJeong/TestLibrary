@@ -34,6 +34,14 @@
 		D963F85529D55176003DB695 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = D963F85429D55176003DB695 /* RxTest */; };
 		D963F85729D55176003DB695 /* RxTest-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = D963F85629D55176003DB695 /* RxTest-Dynamic */; };
 		D963F85A29D5523C003DB695 /* MHVideoPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = D963F85929D5523C003DB695 /* MHVideoPlayer */; };
+		D963F86429D67A89003DB695 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D963F86329D67A89003DB695 /* AppDelegate.swift */; };
+		D963F86829D67A89003DB695 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D963F86729D67A89003DB695 /* ViewController.swift */; };
+		D963F86D29D67A8B003DB695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D963F86C29D67A8B003DB695 /* Assets.xcassets */; };
+		D963F87029D67A8B003DB695 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D963F86E29D67A8B003DB695 /* LaunchScreen.storyboard */; };
+		D963F87629D67AA5003DB695 /* MHImageCache in Frameworks */ = {isa = PBXBuildFile; productRef = D963F87529D67AA5003DB695 /* MHImageCache */; };
+		D963F87829D69AB4003DB695 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D963F87729D69AB4003DB695 /* RxSwift */; };
+		D963F87A29D69ABA003DB695 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = D963F87929D69ABA003DB695 /* RxCocoa */; };
+		D9D66E7C29DBE54B0089D368 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = D9D66E7B29DBE54B0089D368 /* Images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +59,13 @@
 		D963F82829D55102003DB695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D963F82B29D55102003DB695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D963F82D29D55102003DB695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D963F86129D67A89003DB695 /* MHImageCacheTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHImageCacheTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D963F86329D67A89003DB695 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D963F86729D67A89003DB695 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D963F86C29D67A8B003DB695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D963F86F29D67A8B003DB695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D963F87129D67A8B003DB695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9D66E7B29DBE54B0089D368 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +100,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D963F85E29D67A89003DB695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D963F87A29D69ABA003DB695 /* RxCocoa in Frameworks */,
+				D963F87829D69AB4003DB695 /* RxSwift in Frameworks */,
+				D963F87629D67AA5003DB695 /* MHImageCache in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -93,6 +118,7 @@
 			children = (
 				D963F7FE29D550D9003DB695 /* TestLibrary */,
 				D963F81B29D55101003DB695 /* MHVideoPlayerTest */,
+				D963F86229D67A89003DB695 /* MHImageCacheTest */,
 				D963F7FD29D550D9003DB695 /* Products */,
 				D963F85829D5523C003DB695 /* Frameworks */,
 			);
@@ -103,6 +129,7 @@
 			children = (
 				D963F7FC29D550D9003DB695 /* TestLibrary.app */,
 				D963F81A29D55101003DB695 /* MHVideoPlayerTest.app */,
+				D963F86129D67A89003DB695 /* MHImageCacheTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,6 +165,19 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D963F86229D67A89003DB695 /* MHImageCacheTest */ = {
+			isa = PBXGroup;
+			children = (
+				D9D66E7B29DBE54B0089D368 /* Images */,
+				D963F86329D67A89003DB695 /* AppDelegate.swift */,
+				D963F86729D67A89003DB695 /* ViewController.swift */,
+				D963F86C29D67A8B003DB695 /* Assets.xcassets */,
+				D963F86E29D67A8B003DB695 /* LaunchScreen.storyboard */,
+				D963F87129D67A8B003DB695 /* Info.plist */,
+			);
+			path = MHImageCacheTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +238,28 @@
 			productReference = D963F81A29D55101003DB695 /* MHVideoPlayerTest.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D963F86029D67A89003DB695 /* MHImageCacheTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D963F87229D67A8B003DB695 /* Build configuration list for PBXNativeTarget "MHImageCacheTest" */;
+			buildPhases = (
+				D963F85D29D67A89003DB695 /* Sources */,
+				D963F85E29D67A89003DB695 /* Frameworks */,
+				D963F85F29D67A89003DB695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MHImageCacheTest;
+			packageProductDependencies = (
+				D963F87529D67AA5003DB695 /* MHImageCache */,
+				D963F87729D69AB4003DB695 /* RxSwift */,
+				D963F87929D69ABA003DB695 /* RxCocoa */,
+			);
+			productName = MHImageCacheTest;
+			productReference = D963F86129D67A89003DB695 /* MHImageCacheTest.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -212,6 +274,9 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					D963F81929D55101003DB695 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D963F86029D67A89003DB695 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -240,6 +305,7 @@
 			targets = (
 				D963F7FB29D550D9003DB695 /* TestLibrary */,
 				D963F81929D55101003DB695 /* MHVideoPlayerTest */,
+				D963F86029D67A89003DB695 /* MHImageCacheTest */,
 			);
 		};
 /* End PBXProject section */
@@ -260,6 +326,16 @@
 			files = (
 				D963F82C29D55102003DB695 /* LaunchScreen.storyboard in Resources */,
 				D963F82929D55102003DB695 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D963F85F29D67A89003DB695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D963F87029D67A8B003DB695 /* LaunchScreen.storyboard in Resources */,
+				D9D66E7C29DBE54B0089D368 /* Images in Resources */,
+				D963F86D29D67A8B003DB695 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +362,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D963F85D29D67A89003DB695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D963F86829D67A89003DB695 /* ViewController.swift in Sources */,
+				D963F86429D67A89003DB695 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -301,6 +386,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				D963F82B29D55102003DB695 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D963F86E29D67A8B003DB695 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D963F86F29D67A8B003DB695 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -530,6 +623,62 @@
 			};
 			name = Release;
 		};
+		D963F87329D67A8B003DB695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44U694XUDY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MHImageCacheTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mh.practice.MHVideoPlayerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D963F87429D67A8B003DB695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44U694XUDY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MHImageCacheTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mh.practice.MHVideoPlayerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -556,6 +705,15 @@
 			buildConfigurations = (
 				D963F82F29D55102003DB695 /* Debug */,
 				D963F83029D55102003DB695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D963F87229D67A8B003DB695 /* Build configuration list for PBXNativeTarget "MHImageCacheTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D963F87329D67A8B003DB695 /* Debug */,
+				D963F87429D67A8B003DB695 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -706,6 +864,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = D963F84029D5514F003DB695 /* XCRemoteSwiftPackageReference "MHVideoPlayer" */;
 			productName = MHVideoPlayer;
+		};
+		D963F87529D67AA5003DB695 /* MHImageCache */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D963F83129D55126003DB695 /* XCRemoteSwiftPackageReference "MHImageCache" */;
+			productName = MHImageCache;
+		};
+		D963F87729D69AB4003DB695 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D963F84329D55175003DB695 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		D963F87929D69ABA003DB695 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D963F84329D55175003DB695 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
 		};
 /* End XCSwiftPackageProductDependency section */
 
