@@ -44,7 +44,7 @@ class ViewController: UIViewController {
     }
     
     func setPDFViewer(){
-        self.pdfViewer?.setClosure(closure: {[weak self] status  in
+        self.pdfViewer?.setClosure(closure: { status  in
             switch status{
             case .start:
                 print("download start")

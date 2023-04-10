@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MHOrientation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,9 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let vc = ViewController()
+        vc.orientation = MHOrientation(vc: vc)
         
         self.window = UIWindow(frame: UIScreen.main.bounds)
-        self.window?.rootViewController = ViewController()
+        self.window?.rootViewController = vc
+        
         self.window?.makeKeyAndVisible()
         
         return true
