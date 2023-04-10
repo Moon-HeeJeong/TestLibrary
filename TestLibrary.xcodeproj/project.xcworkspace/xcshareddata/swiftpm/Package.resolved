@@ -46,6 +46,15 @@
       }
     },
     {
+      "identity" : "mhpdfviewer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Moon-HeeJeong/MHPDFViewer.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "7335f47d4d4e3302f70d76956d607be500d66ac8"
+      }
+    },
+    {
       "identity" : "mhtextfieldlistview",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Moon-HeeJeong/MHTextFieldListView.git",

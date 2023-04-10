@@ -50,6 +50,17 @@
 		D9D66EC429DE915F0089D368 /* ViewControllerByRX.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D66EC329DE915F0089D368 /* ViewControllerByRX.swift */; };
 		D9D66EC629DE91CC0089D368 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = D9D66EC529DE91CC0089D368 /* RxCocoa */; };
 		D9D66EC829DE91CC0089D368 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D9D66EC729DE91CC0089D368 /* RxSwift */; };
+		D9D66ED029DE984A0089D368 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D66ECF29DE984A0089D368 /* AppDelegate.swift */; };
+		D9D66ED429DE984A0089D368 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D66ED329DE984A0089D368 /* ViewController.swift */; };
+		D9D66ED929DE984C0089D368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D66ED829DE984C0089D368 /* Assets.xcassets */; };
+		D9D66EDC29DE984C0089D368 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D66EDA29DE984C0089D368 /* LaunchScreen.storyboard */; };
+		D9D66EE229DE98900089D368 /* MHOrientation in Frameworks */ = {isa = PBXBuildFile; productRef = D9D66EE129DE98900089D368 /* MHOrientation */; };
+		D9D66F1929DFB1D20089D368 /* MHPDFViewer in Frameworks */ = {isa = PBXBuildFile; productRef = D9D66F1829DFB1D20089D368 /* MHPDFViewer */; };
+		D9D66F2129DFB1EA0089D368 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D66F2029DFB1EA0089D368 /* AppDelegate.swift */; };
+		D9D66F2529DFB1EA0089D368 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D66F2429DFB1EA0089D368 /* ViewController.swift */; };
+		D9D66F2A29DFB1EB0089D368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D66F2929DFB1EB0089D368 /* Assets.xcassets */; };
+		D9D66F2D29DFB1EB0089D368 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D66F2B29DFB1EB0089D368 /* LaunchScreen.storyboard */; };
+		D9D66F3329DFB2700089D368 /* MHPDFViewer in Frameworks */ = {isa = PBXBuildFile; productRef = D9D66F3229DFB2700089D368 /* MHPDFViewer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +92,18 @@
 		D9D66EBB29DE8B710089D368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9D66EBD29DE8B710089D368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9D66EC329DE915F0089D368 /* ViewControllerByRX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerByRX.swift; sourceTree = "<group>"; };
+		D9D66ECD29DE984A0089D368 /* MHOrientationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHOrientationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D66ECF29DE984A0089D368 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9D66ED329DE984A0089D368 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9D66ED829DE984C0089D368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9D66EDB29DE984C0089D368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9D66EDD29DE984C0089D368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9D66F1E29DFB1EA0089D368 /* MHPDFViewerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHPDFViewerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D66F2029DFB1EA0089D368 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9D66F2429DFB1EA0089D368 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9D66F2929DFB1EB0089D368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9D66F2C29DFB1EB0089D368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9D66F2E29DFB1EB0089D368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +115,7 @@
 				D963F84929D55176003DB695 /* RxCocoa in Frameworks */,
 				D963F84229D5514F003DB695 /* MHVideoPlayer in Frameworks */,
 				D963F83C29D5513E003DB695 /* MHTextFieldListView in Frameworks */,
+				D9D66F1929DFB1D20089D368 /* MHPDFViewer in Frameworks */,
 				D963F83929D55136003DB695 /* MHDownloader in Frameworks */,
 				D963F83629D5512E003DB695 /* MHAPI in Frameworks */,
 				D963F83F29D55146003DB695 /* MHOrientation in Frameworks */,
@@ -135,6 +159,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D9D66ECA29DE984A0089D368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D66EE229DE98900089D368 /* MHOrientation in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D66F1B29DFB1EA0089D368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D66F3329DFB2700089D368 /* MHPDFViewer in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -145,6 +185,8 @@
 				D963F81B29D55101003DB695 /* MHVideoPlayerTest */,
 				D963F86229D67A89003DB695 /* MHImageCacheTest */,
 				D9D66EAE29DE8B700089D368 /* MHTextFieldListViewTest */,
+				D9D66ECE29DE984A0089D368 /* MHOrientationTest */,
+				D9D66F1F29DFB1EA0089D368 /* MHPDFViewerTest */,
 				D963F7FD29D550D9003DB695 /* Products */,
 				D963F85829D5523C003DB695 /* Frameworks */,
 			);
@@ -157,6 +199,8 @@
 				D963F81A29D55101003DB695 /* MHVideoPlayerTest.app */,
 				D963F86129D67A89003DB695 /* MHImageCacheTest.app */,
 				D9D66EAD29DE8B700089D368 /* MHTextFieldListViewTest.app */,
+				D9D66ECD29DE984A0089D368 /* MHOrientationTest.app */,
+				D9D66F1E29DFB1EA0089D368 /* MHPDFViewerTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -220,6 +264,30 @@
 			path = MHTextFieldListViewTest;
 			sourceTree = "<group>";
 		};
+		D9D66ECE29DE984A0089D368 /* MHOrientationTest */ = {
+			isa = PBXGroup;
+			children = (
+				D9D66ECF29DE984A0089D368 /* AppDelegate.swift */,
+				D9D66ED329DE984A0089D368 /* ViewController.swift */,
+				D9D66ED829DE984C0089D368 /* Assets.xcassets */,
+				D9D66EDA29DE984C0089D368 /* LaunchScreen.storyboard */,
+				D9D66EDD29DE984C0089D368 /* Info.plist */,
+			);
+			path = MHOrientationTest;
+			sourceTree = "<group>";
+		};
+		D9D66F1F29DFB1EA0089D368 /* MHPDFViewerTest */ = {
+			isa = PBXGroup;
+			children = (
+				D9D66F2029DFB1EA0089D368 /* AppDelegate.swift */,
+				D9D66F2429DFB1EA0089D368 /* ViewController.swift */,
+				D9D66F2929DFB1EB0089D368 /* Assets.xcassets */,
+				D9D66F2B29DFB1EB0089D368 /* LaunchScreen.storyboard */,
+				D9D66F2E29DFB1EB0089D368 /* Info.plist */,
+			);
+			path = MHPDFViewerTest;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -253,6 +321,7 @@
 				D963F85229D55176003DB695 /* RxSwift-Dynamic */,
 				D963F85429D55176003DB695 /* RxTest */,
 				D963F85629D55176003DB695 /* RxTest-Dynamic */,
+				D9D66F1829DFB1D20089D368 /* MHPDFViewer */,
 			);
 			productName = TestLibrary;
 			productReference = D963F7FC29D550D9003DB695 /* TestLibrary.app */;
@@ -322,6 +391,46 @@
 			productReference = D9D66EAD29DE8B700089D368 /* MHTextFieldListViewTest.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D9D66ECC29DE984A0089D368 /* MHOrientationTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D66EDE29DE984C0089D368 /* Build configuration list for PBXNativeTarget "MHOrientationTest" */;
+			buildPhases = (
+				D9D66EC929DE984A0089D368 /* Sources */,
+				D9D66ECA29DE984A0089D368 /* Frameworks */,
+				D9D66ECB29DE984A0089D368 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MHOrientationTest;
+			packageProductDependencies = (
+				D9D66EE129DE98900089D368 /* MHOrientation */,
+			);
+			productName = MHOrientationTest;
+			productReference = D9D66ECD29DE984A0089D368 /* MHOrientationTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9D66F1D29DFB1EA0089D368 /* MHPDFViewerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D66F2F29DFB1EB0089D368 /* Build configuration list for PBXNativeTarget "MHPDFViewerTest" */;
+			buildPhases = (
+				D9D66F1A29DFB1EA0089D368 /* Sources */,
+				D9D66F1B29DFB1EA0089D368 /* Frameworks */,
+				D9D66F1C29DFB1EA0089D368 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MHPDFViewerTest;
+			packageProductDependencies = (
+				D9D66F3229DFB2700089D368 /* MHPDFViewer */,
+			);
+			productName = MHPDFViewerTest;
+			productReference = D9D66F1E29DFB1EA0089D368 /* MHPDFViewerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -344,6 +453,12 @@
 					D9D66EAC29DE8B700089D368 = {
 						CreatedOnToolsVersion = 14.2;
 					};
+					D9D66ECC29DE984A0089D368 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D9D66F1D29DFB1EA0089D368 = {
+						CreatedOnToolsVersion = 14.2;
+					};
 				};
 			};
 			buildConfigurationList = D963F7F729D550D9003DB695 /* Build configuration list for PBXProject "TestLibrary" */;
@@ -363,6 +478,7 @@
 				D963F83D29D55146003DB695 /* XCRemoteSwiftPackageReference "MHOrientation" */,
 				D963F84029D5514F003DB695 /* XCRemoteSwiftPackageReference "MHVideoPlayer" */,
 				D963F84329D55175003DB695 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				D9D66F1729DFB1D20089D368 /* XCRemoteSwiftPackageReference "MHPDFViewer" */,
 			);
 			productRefGroup = D963F7FD29D550D9003DB695 /* Products */;
 			projectDirPath = "";
@@ -372,6 +488,8 @@
 				D963F81929D55101003DB695 /* MHVideoPlayerTest */,
 				D963F86029D67A89003DB695 /* MHImageCacheTest */,
 				D9D66EAC29DE8B700089D368 /* MHTextFieldListViewTest */,
+				D9D66ECC29DE984A0089D368 /* MHOrientationTest */,
+				D9D66F1D29DFB1EA0089D368 /* MHPDFViewerTest */,
 			);
 		};
 /* End PBXProject section */
@@ -411,6 +529,24 @@
 			files = (
 				D9D66EBC29DE8B710089D368 /* LaunchScreen.storyboard in Resources */,
 				D9D66EB929DE8B710089D368 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D66ECB29DE984A0089D368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D66EDC29DE984C0089D368 /* LaunchScreen.storyboard in Resources */,
+				D9D66ED929DE984C0089D368 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D66F1C29DFB1EA0089D368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D66F2D29DFB1EB0089D368 /* LaunchScreen.storyboard in Resources */,
+				D9D66F2A29DFB1EB0089D368 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +592,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D9D66EC929DE984A0089D368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D66ED429DE984A0089D368 /* ViewController.swift in Sources */,
+				D9D66ED029DE984A0089D368 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D66F1A29DFB1EA0089D368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D66F2529DFB1EA0089D368 /* ViewController.swift in Sources */,
+				D9D66F2129DFB1EA0089D368 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -487,6 +641,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				D9D66EBB29DE8B710089D368 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D9D66EDA29DE984C0089D368 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9D66EDB29DE984C0089D368 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D9D66F2B29DFB1EB0089D368 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9D66F2C29DFB1EB0089D368 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -828,6 +998,118 @@
 			};
 			name = Release;
 		};
+		D9D66EDF29DE984C0089D368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44U694XUDY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MHOrientationTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mh.practice.MHOrientationTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9D66EE029DE984C0089D368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44U694XUDY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MHOrientationTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mh.practice.MHOrientationTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9D66F3029DFB1EB0089D368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44U694XUDY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MHPDFViewerTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mh.practice.MHPDFViewerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9D66F3129DFB1EB0089D368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44U694XUDY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MHPDFViewerTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mh.practice.MHPDFViewerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -872,6 +1154,24 @@
 			buildConfigurations = (
 				D9D66EBF29DE8B710089D368 /* Debug */,
 				D9D66EC029DE8B710089D368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D66EDE29DE984C0089D368 /* Build configuration list for PBXNativeTarget "MHOrientationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D66EDF29DE984C0089D368 /* Debug */,
+				D9D66EE029DE984C0089D368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D66F2F29DFB1EB0089D368 /* Build configuration list for PBXNativeTarget "MHPDFViewerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D66F3029DFB1EB0089D368 /* Debug */,
+				D9D66F3129DFB1EB0089D368 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -930,6 +1230,14 @@
 		D963F84329D55175003DB695 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		D9D66F1729DFB1D20089D368 /* XCRemoteSwiftPackageReference "MHPDFViewer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moon-HeeJeong/MHPDFViewer.git";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -1052,6 +1360,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = D963F84329D55175003DB695 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
+		};
+		D9D66EE129DE98900089D368 /* MHOrientation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D963F83D29D55146003DB695 /* XCRemoteSwiftPackageReference "MHOrientation" */;
+			productName = MHOrientation;
+		};
+		D9D66F1829DFB1D20089D368 /* MHPDFViewer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9D66F1729DFB1D20089D368 /* XCRemoteSwiftPackageReference "MHPDFViewer" */;
+			productName = MHPDFViewer;
+		};
+		D9D66F3229DFB2700089D368 /* MHPDFViewer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9D66F1729DFB1D20089D368 /* XCRemoteSwiftPackageReference "MHPDFViewer" */;
+			productName = MHPDFViewer;
 		};
 /* End XCSwiftPackageProductDependency section */
 
