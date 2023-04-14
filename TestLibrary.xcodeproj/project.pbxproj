@@ -41,6 +41,17 @@
 		D963F87629D67AA5003DB695 /* MHImageCache in Frameworks */ = {isa = PBXBuildFile; productRef = D963F87529D67AA5003DB695 /* MHImageCache */; };
 		D963F87829D69AB4003DB695 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D963F87729D69AB4003DB695 /* RxSwift */; };
 		D963F87A29D69ABA003DB695 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = D963F87929D69ABA003DB695 /* RxCocoa */; };
+		D9B82A1529E3E53500EF1BD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B82A1429E3E53500EF1BD4 /* AppDelegate.swift */; };
+		D9B82A1929E3E53500EF1BD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B82A1829E3E53500EF1BD4 /* ViewController.swift */; };
+		D9B82A1E29E3E53600EF1BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9B82A1D29E3E53600EF1BD4 /* Assets.xcassets */; };
+		D9B82A2129E3E53600EF1BD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9B82A1F29E3E53600EF1BD4 /* LaunchScreen.storyboard */; };
+		D9B82A2729E3E54700EF1BD4 /* MHAPI in Frameworks */ = {isa = PBXBuildFile; productRef = D9B82A2629E3E54700EF1BD4 /* MHAPI */; };
+		D9B82A2A29E3E71000EF1BD4 /* AppleAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B82A2929E3E71000EF1BD4 /* AppleAPI.swift */; };
+		D9B82A5529E53C0700EF1BD4 /* MHAPITestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B82A5429E53C0700EF1BD4 /* MHAPITestTests.swift */; };
+		D9B82A5B29E53C8C00EF1BD4 /* AppleAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B82A2929E3E71000EF1BD4 /* AppleAPI.swift */; };
+		D9B82A5C29E53C8F00EF1BD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B82A1829E3E53500EF1BD4 /* ViewController.swift */; };
+		D9B82A5F29E8EF6700EF1BD4 /* LittleAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B82A5E29E8EF6700EF1BD4 /* LittleAPI.swift */; };
+		D9B82A6029E8EF6700EF1BD4 /* LittleAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B82A5E29E8EF6700EF1BD4 /* LittleAPI.swift */; };
 		D9D66E7C29DBE54B0089D368 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = D9D66E7B29DBE54B0089D368 /* Images */; };
 		D9D66EB029DE8B700089D368 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D66EAF29DE8B700089D368 /* AppDelegate.swift */; };
 		D9D66EB429DE8B700089D368 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D66EB329DE8B700089D368 /* ViewController.swift */; };
@@ -63,6 +74,16 @@
 		D9D66F3329DFB2700089D368 /* MHPDFViewer in Frameworks */ = {isa = PBXBuildFile; productRef = D9D66F3229DFB2700089D368 /* MHPDFViewer */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D9B82A5629E53C0700EF1BD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D963F7F429D550D9003DB695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9B82A1129E3E53500EF1BD4;
+			remoteInfo = MHAPITest;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		D963F7FC29D550D9003DB695 /* TestLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D963F7FF29D550D9003DB695 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +105,16 @@
 		D963F86C29D67A8B003DB695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D963F86F29D67A8B003DB695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D963F87129D67A8B003DB695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9B82A1229E3E53500EF1BD4 /* MHAPITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHAPITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9B82A1429E3E53500EF1BD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9B82A1829E3E53500EF1BD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9B82A1D29E3E53600EF1BD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9B82A2029E3E53600EF1BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9B82A2229E3E53600EF1BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9B82A2929E3E71000EF1BD4 /* AppleAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleAPI.swift; sourceTree = "<group>"; };
+		D9B82A5229E53C0700EF1BD4 /* MHAPITestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MHAPITestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9B82A5429E53C0700EF1BD4 /* MHAPITestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHAPITestTests.swift; sourceTree = "<group>"; };
+		D9B82A5E29E8EF6700EF1BD4 /* LittleAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleAPI.swift; sourceTree = "<group>"; };
 		D9D66E7B29DBE54B0089D368 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
 		D9D66EAD29DE8B700089D368 /* MHTextFieldListViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHTextFieldListViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D66EAF29DE8B700089D368 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +180,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D9B82A0F29E3E53500EF1BD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B82A2729E3E54700EF1BD4 /* MHAPI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9B82A4F29E53C0700EF1BD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9D66EAA29DE8B700089D368 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -187,6 +233,8 @@
 				D9D66EAE29DE8B700089D368 /* MHTextFieldListViewTest */,
 				D9D66ECE29DE984A0089D368 /* MHOrientationTest */,
 				D9D66F1F29DFB1EA0089D368 /* MHPDFViewerTest */,
+				D9B82A1329E3E53500EF1BD4 /* MHAPITest */,
+				D9B82A5329E53C0700EF1BD4 /* MHAPITestTests */,
 				D963F7FD29D550D9003DB695 /* Products */,
 				D963F85829D5523C003DB695 /* Frameworks */,
 			);
@@ -201,6 +249,8 @@
 				D9D66EAD29DE8B700089D368 /* MHTextFieldListViewTest.app */,
 				D9D66ECD29DE984A0089D368 /* MHOrientationTest.app */,
 				D9D66F1E29DFB1EA0089D368 /* MHPDFViewerTest.app */,
+				D9B82A1229E3E53500EF1BD4 /* MHAPITest.app */,
+				D9B82A5229E53C0700EF1BD4 /* MHAPITestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -249,6 +299,28 @@
 				D963F87129D67A8B003DB695 /* Info.plist */,
 			);
 			path = MHImageCacheTest;
+			sourceTree = "<group>";
+		};
+		D9B82A1329E3E53500EF1BD4 /* MHAPITest */ = {
+			isa = PBXGroup;
+			children = (
+				D9B82A1429E3E53500EF1BD4 /* AppDelegate.swift */,
+				D9B82A1829E3E53500EF1BD4 /* ViewController.swift */,
+				D9B82A1D29E3E53600EF1BD4 /* Assets.xcassets */,
+				D9B82A1F29E3E53600EF1BD4 /* LaunchScreen.storyboard */,
+				D9B82A2229E3E53600EF1BD4 /* Info.plist */,
+				D9B82A2929E3E71000EF1BD4 /* AppleAPI.swift */,
+				D9B82A5E29E8EF6700EF1BD4 /* LittleAPI.swift */,
+			);
+			path = MHAPITest;
+			sourceTree = "<group>";
+		};
+		D9B82A5329E53C0700EF1BD4 /* MHAPITestTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9B82A5429E53C0700EF1BD4 /* MHAPITestTests.swift */,
+			);
+			path = MHAPITestTests;
 			sourceTree = "<group>";
 		};
 		D9D66EAE29DE8B700089D368 /* MHTextFieldListViewTest */ = {
@@ -369,6 +441,44 @@
 			productReference = D963F86129D67A89003DB695 /* MHImageCacheTest.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D9B82A1129E3E53500EF1BD4 /* MHAPITest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9B82A2529E3E53600EF1BD4 /* Build configuration list for PBXNativeTarget "MHAPITest" */;
+			buildPhases = (
+				D9B82A0E29E3E53500EF1BD4 /* Sources */,
+				D9B82A0F29E3E53500EF1BD4 /* Frameworks */,
+				D9B82A1029E3E53500EF1BD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MHAPITest;
+			packageProductDependencies = (
+				D9B82A2629E3E54700EF1BD4 /* MHAPI */,
+			);
+			productName = MHAPITest;
+			productReference = D9B82A1229E3E53500EF1BD4 /* MHAPITest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9B82A5129E53C0700EF1BD4 /* MHAPITestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9B82A5829E53C0700EF1BD4 /* Build configuration list for PBXNativeTarget "MHAPITestTests" */;
+			buildPhases = (
+				D9B82A4E29E53C0700EF1BD4 /* Sources */,
+				D9B82A4F29E53C0700EF1BD4 /* Frameworks */,
+				D9B82A5029E53C0700EF1BD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9B82A5729E53C0700EF1BD4 /* PBXTargetDependency */,
+			);
+			name = MHAPITestTests;
+			productName = MHAPITestTests;
+			productReference = D9B82A5229E53C0700EF1BD4 /* MHAPITestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D9D66EAC29DE8B700089D368 /* MHTextFieldListViewTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9D66EBE29DE8B710089D368 /* Build configuration list for PBXNativeTarget "MHTextFieldListViewTest" */;
@@ -450,6 +560,13 @@
 					D963F86029D67A89003DB695 = {
 						CreatedOnToolsVersion = 14.2;
 					};
+					D9B82A1129E3E53500EF1BD4 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D9B82A5129E53C0700EF1BD4 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D9B82A1129E3E53500EF1BD4;
+					};
 					D9D66EAC29DE8B700089D368 = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -490,6 +607,8 @@
 				D9D66EAC29DE8B700089D368 /* MHTextFieldListViewTest */,
 				D9D66ECC29DE984A0089D368 /* MHOrientationTest */,
 				D9D66F1D29DFB1EA0089D368 /* MHPDFViewerTest */,
+				D9B82A1129E3E53500EF1BD4 /* MHAPITest */,
+				D9B82A5129E53C0700EF1BD4 /* MHAPITestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -520,6 +639,22 @@
 				D963F87029D67A8B003DB695 /* LaunchScreen.storyboard in Resources */,
 				D9D66E7C29DBE54B0089D368 /* Images in Resources */,
 				D963F86D29D67A8B003DB695 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9B82A1029E3E53500EF1BD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B82A2129E3E53600EF1BD4 /* LaunchScreen.storyboard in Resources */,
+				D9B82A1E29E3E53600EF1BD4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9B82A5029E53C0700EF1BD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +717,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D9B82A0E29E3E53500EF1BD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B82A1929E3E53500EF1BD4 /* ViewController.swift in Sources */,
+				D9B82A1529E3E53500EF1BD4 /* AppDelegate.swift in Sources */,
+				D9B82A5F29E8EF6700EF1BD4 /* LittleAPI.swift in Sources */,
+				D9B82A2A29E3E71000EF1BD4 /* AppleAPI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9B82A4E29E53C0700EF1BD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B82A5C29E53C8F00EF1BD4 /* ViewController.swift in Sources */,
+				D9B82A5B29E53C8C00EF1BD4 /* AppleAPI.swift in Sources */,
+				D9B82A6029E8EF6700EF1BD4 /* LittleAPI.swift in Sources */,
+				D9B82A5529E53C0700EF1BD4 /* MHAPITestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9D66EA929DE8B700089D368 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -612,6 +769,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D9B82A5729E53C0700EF1BD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9B82A1129E3E53500EF1BD4 /* MHAPITest */;
+			targetProxy = D9B82A5629E53C0700EF1BD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		D963F80D29D550DA003DB695 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -633,6 +798,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				D963F86F29D67A8B003DB695 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D9B82A1F29E3E53600EF1BD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9B82A2029E3E53600EF1BD4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -942,6 +1115,100 @@
 			};
 			name = Release;
 		};
+		D9B82A2329E3E53600EF1BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44U694XUDY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MHAPITest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mh.practice.MHAPITest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9B82A2429E3E53600EF1BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44U694XUDY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MHAPITest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mh.practice.MHAPITest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9B82A5929E53C0700EF1BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44U694XUDY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mh.practice.MHAPITestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MHAPITest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MHAPITest";
+			};
+			name = Debug;
+		};
+		D9B82A5A29E53C0700EF1BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44U694XUDY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mh.practice.MHAPITestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MHAPITest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MHAPITest";
+			};
+			name = Release;
+		};
 		D9D66EBF29DE8B710089D368 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1149,6 +1416,24 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		D9B82A2529E3E53600EF1BD4 /* Build configuration list for PBXNativeTarget "MHAPITest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9B82A2329E3E53600EF1BD4 /* Debug */,
+				D9B82A2429E3E53600EF1BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9B82A5829E53C0700EF1BD4 /* Build configuration list for PBXNativeTarget "MHAPITestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9B82A5929E53C0700EF1BD4 /* Debug */,
+				D9B82A5A29E53C0700EF1BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D9D66EBE29DE8B710089D368 /* Build configuration list for PBXNativeTarget "MHTextFieldListViewTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1345,6 +1630,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = D963F84329D55175003DB695 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxCocoa;
+		};
+		D9B82A2629E3E54700EF1BD4 /* MHAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D963F83429D5512E003DB695 /* XCRemoteSwiftPackageReference "MHAPI" */;
+			productName = MHAPI;
 		};
 		D9D66EC129DE8BB90089D368 /* MHTextFieldListView */ = {
 			isa = XCSwiftPackageProductDependency;
